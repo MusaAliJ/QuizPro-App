@@ -1,0 +1,31 @@
+
+body{
+    background-color: #efefef;
+}
+#login-box{
+    padding: 15px 25px;
+    width: 100%;
+    float: left;
+    border: 1px solid lightgrey;
+    margin-top: 100px;
+    min-height: 285px;
+    height: 380px;
+    background-color: white;
+    box-shadow: 1px 4px 9px #bdbdbd;
+    border-top: 5px solid #65c13d;
+    border-bottom: 5px solid #65c13d;
+}
+
+#login-box img{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#login-box button{
+    width: 100%;
+    background-color: #65c13d;
+    border: none;
+}
+
+#login-box button:hover{
+    opacity: 0.8;
+}
