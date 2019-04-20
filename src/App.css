@@ -9,11 +9,12 @@ body{
     border: 1px solid lightgrey;
     margin-top: 100px;
     min-height: 285px;
-    height: 380px;
+    height: 400px;
     background-color: white;
     box-shadow: 1px 4px 9px #bdbdbd;
     border-top: 5px solid #65c13d;
     border-bottom: 5px solid #65c13d;
+    border-radius:10px;
 }
 
 #login-box img{
@@ -25,7 +26,48 @@ body{
     background-color: #65c13d;
     border: none;
 }
-
 #login-box button:hover{
     opacity: 0.8;
+}
+#login-box a{
+    color: grey;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#login-box a:hover{
+    opacity: 0.7;
+}
+
+nav{
+    background-color:white;
+    margin-bottom:25px;
+    box-shadow: 0px 3px 5px #cecece;
+    border-bottom: 2px solid #77d250;
+}
+nav img{
+    width: 140px;
+}
+
+#navbar-user{
+    float: right;
+    border: 1px solid lightgrey;
+    padding: 0px 15px 5px;
+    border-radius: 3em;
+    cursor: pointer;
+}
+
+#navbar-user .btn-secondary {
+        color: #292929;
+        background-color:transparent;
+        border-color: transparent;
+        padding: 0;
+}
+
+#navbar-user .btn-secondary:hover {
+    background-color: transparent;
+    border-color: transparent;
+}
+#navbar-user .btn-secondary:focus {
+    box-shadow:0px 0px 0px;
 }
